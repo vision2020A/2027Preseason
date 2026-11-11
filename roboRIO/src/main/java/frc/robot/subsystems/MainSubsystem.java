@@ -38,7 +38,6 @@ public class MainSubsystem extends SubsystemBase {
         bottomLeftController = bottomLeft.getClosedLoopController();
         bottomRightController = bottomRight.getClosedLoopController();
     }
-    public enum names{TOPLEFT, TOPRIGHT,BOTTOMLEFT,BOTTOMRIGHT}
     public void moveMotor(int motor, int pos){
         switch(motor){
             case 0:
